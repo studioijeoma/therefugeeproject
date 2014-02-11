@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Refugee Project by Hyperakt and Ekene Ijeoma, visualizes UNHCR refugee data and UN population data to tell the stories of refugee movements from 1975 to 2012.">
+    <meta name="author" content="Ekene Ijeoma">
+
+    <meta property="og:title" content="The Refugee Project" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="www.therefugeeproject.org/imgs/facebook.jpg" />
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="314">
+    <meta property="og:url" content="www.therefugeeproject.org" />
+    <meta property="og:description" content="The Refugee Project by Hyperakt and Ekene Ijeoma, visualizes UNHCR refugee data and UN population data to tell the stories of refugee movements from 1975 to 2012." />
+
+    <title>The Refugee Project</title>  
+    <link rel="icon" type="image/png" href="http://www.therefugeeproject.org/imgs/favicon.png">
+    <!--[if IE]><link rel="shortcut icon" href="http://www.therefugeeproject.org/imgs/favicon.ico"/><![endif]--><!-- Internet Explorer-->
+
+    <link rel="image_src" type="image/jpeg" href="www.therefugeeproject.org/imgs/facebook.jpg" />
+
+    <!-- Font styles -->
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6647672/667942/css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.symbolset.com/30fa5ee185fca354268adc0ce9b7b1916ed3122d/symbolset.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/flexslider.css" media="screen and (max-device-width: 1024px)" />
+    <link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-device-width: 1024px)" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div id="top-nav">
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="navbar-header">
+                <a id="home-button" class="navbar-brand" href="#">
+                    <img src="imgs/logo-big.png" />
+                </a>
+                <a href="#" class="toggle ss-rows"></a>
+                <h2 class="year"></h2>
+            </div>
+            <div class="navbar-mobile">
+              <ul>
+                <li><a href="#about">About</a></li>
+              </ul>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <p class="navbar-text"><a id="about-button" class="navbar-link" href="#">ABOUT</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="navbar-text"><a id="donate-button" class="navbar-link" href="http://donate.unhcr.org/?utm_source=twitter_datavisualization_&utm_medium=social&utm_campaign=General-Donation" target="_blank">DONATE</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div id="facebook-button" class="share-button">
+                            <a id="facebook-button" href="https://www.facebook.com/sharer/sharer.php?u=therefugeeproject.org" target="_blank">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="twitter-button" class="share-button">
+                            <a id="twitter-button" href="http://twitter.com/home?status=The%20Refugee%20Project%20is%20an%20interactive%20map%20of%20global%20refugee%20migrations%20since%201975.%20hkt.lv/Db%20by%20@hyperakt%20and%20@ekeneijeoma" target="_blank">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="email-button" class="share-button">
+                            <a id="email-button" href="mailto:hello@therefugeeproject.org" target="_blank">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="map-page">
+        <div id="map">
+            <svg>
+                <defs>
+                    <linearGradient id="originLinkStroke1" spreadMethod="pad">
+                        <stop offset="10%" stop-color="#ef3753"></stop>
+                        <stop offset="50%" stop-opacity="10%" stop-color="#7887a0"></stop>
+                        <stop offset="90%" stop-color="#00d7ed"></stop>
+                    </linearGradient>
+                    <linearGradient id="originLinkStroke2" spreadMethod="pad">
+                        <stop offset="10%" stop-color="#00d7ed"></stop>
+                        <stop offset="50%" stop-opacity="10%" stop-color="#7887a0"></stop>
+                        <stop offset="90%" stop-color="#ef3753"></stop>
+                    </linearGradient> 
+                    <linearGradient id="asylumLinkStroke1" spreadMethod="pad">
+                        <stop offset="10%" stop-color="#ef3753"></stop>
+                        <stop offset="50%" stop-opacity="10%" stop-color="#7887a0"></stop>
+                        <stop offset="90%" stop-color="#00d7ed"></stop>
+                    </linearGradient>   
+                    <linearGradient id="asylumLinkStroke2" spreadMethod="pad">
+                        <stop offset="10%" stop-color="#00d7ed"></stop>
+                        <stop offset="50%" stop-opacity="10%" stop-color="#7887a0"></stop>
+                        <stop offset="90%" stop-color="#ef3753"></stop>
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+        <div id="map-timeline">
+            <div id="play-button" class="frame play">
+                <a></a>
+            </div>
+            <svg>
+            </svg>
+        </div>
+        <div id="map-nav-background">
+        </div>
+        <div id="map-nav-head">
+            <div id="year-region">
+                <span id="year"></span>
+                <span id="year-border">&VerticalSeparator;</span>
+                <span id="region"></span>
+            </div>
+            <div id="story-head"></div>
+        </div>
+        <div id="map-nav-body">
+            <div id="stats">
+                <dl>
+                    <dt>VIEWING</dt>
+                    <dd></dd>
+                    <dd>
+                        <div id="type-mode-button" class="toggle-button origins">
+                            <a></a>
+                        </div>
+                        <div id="value-mode-button" class="toggle-button origin-refugees">
+                            <a></a>
+                        </div>
+                    </dd> 
+                    <dt id="refugee-mode">WORLD REFUGEES</dt>
+                    <!-- <dt class="region">WORLD</dt> -->
+                    <dd id="refugees" class="value-mode-value"></dd>
+                    <dt>POPULATION</dt>
+                    <dd id="population"></dd>
+                    <dt>REFUGEES / POPULATION</dt>
+                    <dd id="refugeesPopulation"></dd> 
+                    <dt id="top-label"></dt>
+                    <dd id="top-values"></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div id="home-page">
+        <div class="carousel-caption flex">
+            <div>
+                <p>
+                    Every day, all over the world, ordinary people must flee their homes for fear of death or persecution. Many leave without notice, taking only what they can carry. Many will never return. They cross oceans and minefields, they risk their lives and their futures. When they cross international borders they are called refugees.
+                </p>
+                <p>
+                    The Refugee Project is an interactive map of refugee migrations around the world in each year since 1975. UN data is complemented by original histories of the major refugee crises of the last four decades, situated in their individual contexts.
+                </p>
+                <p class="best-viewed" style="font-size:14px; color: #f13452">
+                    <strong>(Best viewed in Chrome and Firefox)</strong>
+                </p>
+                <img id="explore-button" src="imgs/loading.png" />
+            </div>
+        </div>
+        <div id="" class="carousel container slide">
+            <div id="home-images" class="carousel-inner"> 
+            </div>
+        </div>
+    </div>
+    <div id="about-page" class="col-md-12">
+        <div class="row">
+            <div id="about-page-menu" class="col-md-9 col-md-offset-1">
+                <dl>
+                    <dd><a href="#about">About The Refugee Project</a>
+                    </dd>
+                    <dd><a href="#credits">Credits</a>
+                    </dd>
+                    <dd><a href="#how">How it works</a>
+                    </dd>
+                    <dd><a href="#questions">Questions & Comments</a>
+                    </dd>
+                    <dd><a href="#sources">Sources & Notes</a>
+                    </dd>
+                </dl>
+            </div>
+            <div id="about" class="col-md-9 col-md-offset-1">
+                <h1>About The Refugee Project</h1>
+                <p>
+                    The Refugee Project is a narrative, temporal map of refugee migrations since 1975. We’ve used UN data to visualize refugee volumes over time and added a layer of historical content to help explain the events that caused some of the largest refugee movements of the last four decades.
+                </p>
+                <p>
+                    Under international law, the United Nations is responsible for protecting asylum seekers around the world. Through the offices of the High Commissioner for Refugees (UNHCR), and a separate agency for Palestinian refugees (UNRWA), the UN counts and tracks millions of displaced people as part of its larger task of safeguarding their lives and rights. In late 2013, there are over 15 million refugees registered with the UN all over the globe.
+                </p>
+                <p>
+                    The UNHCR's mandate is to try to assist all stateless and displaced people, not just "refugees" as defined under international law. But this project is limited to the relatively hard numbers of legal, registered refugees under the protection of the UNHCR. In order to qualify for that protection, an individual must be outside the boundaries of his or her country of nationality, "owing to a well-founded fear of being persecuted for reasons of race, religion, nationality, membership of a particular social group or political opinion."
+                </p>
+                <p>
+                    The map does not consider the large number of economic migrants and other undocumented populations, such the majority of the undocumented Mexican nationals in the United States; nor does it show the millions of internally displaced persons in troubled countries around the world. As a result, it is an image almost exclusively of social and political crises, rather than of natural disasters or economic turmoil (though these factors are often interrelated).
+                </p>
+                <p>
+                    Because of the limitations of the UN's budget, and for various legal, political and logistical reasons, not all eligible asylum seekers are classified as refugees. Political persecution often occurs on the fringes of the modern, interconnected world, and victims cannot always present themselves to UNHCR authorities for registration. Nor is it always in their best interest to do so, since legal refugees are often unwelcome guests, confined to crowded resettlement camps, politically powerless, sometimes denied the right to work.
+                </p>
+            </div>
+            <div id="credits" class="col-md-9 col-md-offset-1">
+                <h1>Credits</h1>
+                <dl>
+                    <dt>Concept, Design & Production:</dt>
+                    <dd>
+                        <a href="http://hyperakt.com">Hyperakt</a> (Deroy Peraza, Eric Fensterheim, Josh Smith & Ambika Roos) &
+                        <a href="http://ekeneijeoma.com">Ekene Ijeoma</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Desktop Development:</dt>
+                    <dd>
+                        <a href="http://ekeneijeoma.com">Ekene Ijeoma</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Mobile Development:</dt>
+                    <dd>
+                        <a href="http://oak.is/">Oak</a>
+                    </dd>
+                </dl>
+
+                <dl>
+                    <dt>Copy Writing:</dt>
+                    <dd>Ted Cava</dd>
+                </dl>
+                <dl>
+                    <dt>Copy Editing:</dt>
+                    <dd>Jenna Shapiro & Ambika Roos</dd>
+                </dl>
+                <dl>
+                    <dt>Data Sources:</dt>
+                    <dd>   
+                        <a href="http://data.un.org/Data.aspx?d=UNHCR&f=indID%3AType-Ref">UNHCR Refugee Data</a>,
+                        <a href="http://esa.un.org/unpd/wpp/index.htm">UN Population Data</a> 
+                    </dd>
+                </dl>
+            </div>
+            <div id="how" class="col-md-9 col-md-offset-1">
+                <h1>How it works</h1>
+                <img class="main img-responsive" src="imgs/howitworks.png" />
+                <h2>Compare refugee population visually by country</h2>
+                <p>
+                    The size of the circle around each country indicates how many of that country’s citizens are living abroad as refugees.
+                </p>
+                <p>
+                    The circles expand when a country experiences war, turmoil, famine, or repression, and people flee. The circles shrink when the country stabilizes or experiences political change and refugees return home; or, less often, when they are given legal residency in their new homes, or in third countries.
+                </p>
+                <h2 class="main">View refugees by volume or by percent of population</h2>
+                <p class="main">
+                    The view toggle switch in the sidebar allows you to choose whether you want to visualize the total number of refugees living abroad for a given country in a given year or whether you want to visualize the country’s refugee population as a percentage of the country’s total population for the given year. The percentage view highlights the relative impact of instability on smaller nations.
+                </p>
+                <h2 class="main">Explore where each country’s refugees have found asylum</h2>
+                <p class="main">
+                    The lines radiating from each refugee-producing country connect it to all the foreign countries where its refugee nationals reside in that year.
+                </p>
+                <p class="main">
+                    Where a refugee seeks asylum is a complex decision, based on geography, the wealth of the individual refugee, political considerations in nearby countries and the policies of the UN.
+                </p>
+                <h2 class="main">Analyze when countries had the highest refugee volumes</h2>
+                <p class="main">
+                    The red bar along the bottom of the window illustrates a heatmap of refugee volumes over time for the entire world or for individual countries.
+                </p>
+                <p class="main">
+                    This number rises and falls over time in response to global trends and particularly large regional crises.
+                </p>
+                <h2>Read about events that led to refugee crises</h2>
+                <p>
+                    The headline stories about many of the most important refugee-producing nations give the context behind each refugee crisis- what people are running from, and why.
+                </p>
+                <p>
+                    Refugees don’t come out of a vacuum. Each wave of asylum seekers reflects a wave of repression, violence or chaos in their home countries.
+                </p>
+                <p>
+                    The years for which there are headlines are turning points in each country's recent history, not necessarily the moments that saw significant numbers of refugees flee that country.
+                </p>
+            </div>
+            <div id="questions" class="col-md-9 col-md-offset-1">
+                <h1>Questions & Comments</h1>
+                <p>
+                    The Refugee Project is an experimental learning and exploration tool. We would love to hear questions and comments so we can continue improving it. If you’re interested in publishing a piece about the project or are interested in using the tool in educational contexts, please reach out to:
+                    <a href="mailto:hello@therefugeeproject.org">hello at therefugeeproject dot org</a>.
+                </p>
+            </div>
+            <div id="sources" class="col-md-9 col-md-offset-1">
+                <h1>Sources & Notes</h1>
+                <dl>
+                    <dt>Afghanistan:</dt>
+                    <dd>
+                        <a href="http://www.nps.edu/programs/ccs/docs/pubs/understanding%20the%20taliban%20and%20insurgency%20in%20afghanistan.pdf">http://www.nps.edu/programs/ccs/docs/pubs/understanding%20the%20taliban%20and%20insurgency%20in%20afghanistan.pdf</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.mepc.org/articles-commentary/commentary/lessons-soviet-withdrawal-afghanistan">http://www.mepc.org/articles-commentary/commentary/lessons-soviet-withdrawal-afghanistan</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.nonel.pu.ru/erdferkel/khalidi.pdf">http://www.nonel.pu.ru/erdferkel/khalidi.pdf</a>
+                    </dd>
+                    <dd>
+                        <a href="http://lcweb2.loc.gov/frd/cs/aftoc.html#af0106">http://lcweb2.loc.gov/frd/cs/aftoc.html#af0106</a>
+                    </dd>
+                    <dd>Taliban, by Ahmed Rashid, 2000</dd>
+                </dl>
+                <dl>
+                    <dt>Angola:</dt>
+                    <dd><a href="http://users.dickinson.edu/~ballj/documents/HistoryCompass.pdf">http://users.dickinson.edu/~ballj/documents/HistoryCompass.pdf</a>
+                    </dd>
+                    <dd><a href="http://www.bbc.co.uk/news/world-africa-13037271">http://www.bbc.co.uk/news/world-africa-13037271</a>
+                    </dd>
+                    <dd><a href="http://www.start.umd.edu/start/data_collections/tops/terrorist_organization_profile.asp?id=3509">http://www.start.umd.edu/start/data_collections/tops terrorist_organization_profile.asp?id=3509</a>
+                    </dd>
+                    <dd><a href="http://lcweb2.loc.gov/frd/cs/aotoc.html">http://lcweb2.loc.gov/frd/cs/aotoc.html</a>
+                    </dd>
+                    <dd>Another Day of Life, by Ryszard Kapuściński, 1976</dd>
+                </dl>
+                <dl>
+                    <dt>Azerbaijan:</dt>
+                    <dd><a href="http://www.rferl.org/content/article/1065626.html">http://www.rferl.org/content/article/1065626.html</a>
+                    </dd>
+                    <dd><a href="http://news.amnesty.org.au/news/comments/hundreds_of_thousands_of_people_displaced/ ">http://news.amnesty.org.au/news/comments/hundreds_of_thousands_of_people_displaced/</a>
+                    </dd>
+                    <dd><a href="http://www.bbc.co.uk/news/world-europe-18270325 ">http://www.bbc.co.uk/news/world-europe-18270325</a>
+                    </dd>
+                    <dd><a href="http://www.unhcr.org/4bd7edbd9.html">http://www.unhcr.org/4bd7edbd9.html</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Bhutan:</dt>
+                    <dd><a href="http://www.hrw.org/node/10953/">http://www.hrw.org/node/10953/</a>
+                    </dd>
+                    <dd><a href="http://www.freedomhouse.org/report/countries-crossroads/2005/bhutan">http://www.freedomhouse.org/report/countries-crossroads/2005/bhutan</a>
+                    </dd>
+                    <dd><a href="http://www.bbc.co.uk/news/world-south-asia-12641778">http://www.bbc.co.uk/news/world-south-asia-12641778</a>
+                    </dd>
+                    <dd><a href="http://lcweb2.loc.gov/frd/cs/bttoc.html">http://lcweb2.loc.gov/frd/cs/bttoc.html</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Bosnia:</dt>
+                    <dd><a href="http://blogs.shu.edu/diplomacy/files/archives/07%2520Franz_Layout%25201.pdf">http://blogs.shu.edu/diplomacy/files/archives/07%2520Franz_Layout%25201.pdf</a>
+                    </dd>
+                    <dd><a href="http://www.crisisgroup.org/en/regions/europe/balkans/bosnia-herzegovina/023-going-nowhere-fast-refugees-and-internally-displaced-persons-in-bosnia-and-herzegovina.aspx">http://www.crisisgroup.org/en/regions/europe/balkans/bosnia-herzegovina/023-going-nowhere-fast-refugees-and-internally-displaced-persons-in-bosnia-and-herzegovina.aspx</a>
+                    </dd>
+                    <dd><a href="http://www.washingtonpost.com/wp-srv/inatl/longterm/balkans/timeline.htm">http://www.washingtonpost.com/wp-srv/inatl/longterm/balkans/timeline.htm</a>
+                    </dd>
+                    <dd><a href="http://www.bbc.co.uk/news/world-europe-17617775">http://www.bbc.co.uk/news/world-europe-17617775</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Burundi:</dt>
+                    <dd><a href="http://www.bbc.co.uk/news/world-africa-13087604">http://www.bbc.co.uk/news/world-africa-13087604</a>
+                    </dd>
+                    <dd><a href="http://www.cidcm.umd.edu/mar/chronology.asp?groupId=51601">http://www.cidcm.umd.edu/mar/chronology.asp?groupId=51601</a>
+                    </dd>
+                    <dd><a href="http://www.massviolence.org/The-Burundi-Killings-of-1972?artpage=2-7">http://www.massviolence.org/The-Burundi-Killings-of-1972?artpage=2-7</a>
+                    </dd>
+                    <dd><a href="http://www.nytimes.com/1997/08/14/world/rewriting-burundi-s-brutal-past.html">http://www.nytimes.com/1997/08/14/world/rewriting-burundi-s-brutal-past.html</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Cambodia:</dt>
+                    <dd><a href="http://www.bbc.co.uk/news/world-asia-pacific-13006828">http://www.bbc.co.uk/news/world-asia-pacific-13006828</a>
+                    </dd>
+                    <dd><a href="http://query.nytimes.com/mem/archive/pdf?res=F10916FC3959107788DDA90A94D9405B8084F1D3">http://query.nytimes.com/mem/archive/pdf?res=F10916FC3959107788DDA90A94D9405B8084F1D3</a>
+                    </dd>
+                    <dd><a href="http://www.guardian.co.uk/news/blog/2009/feb/16/cambodia-khmer-rouge">http://www.guardian.co.uk/news/blog/2009/feb/16/cambodia-khmer-rouge</a>
+                    </dd>
+                    <dd>The Gate, by François Bizot, 2000</dd>
+                </dl>
+                <dl>
+                    <dt>Central African Republic:</dt>
+                    <dd><a href="http://www.bbc.co.uk/news/world-africa-20798007">http://www.bbc.co.uk/news/world-africa-20798007</a>
+                    </dd>
+                    <dd><a href="http://www.hrw.org/node/10680/section/3">http://www.hrw.org/node/10680/section/3</a>
+                    </dd>
+                    <dd><a href="http://thinkafricapress.com/central-african-republic/fanning-flames-war-car-seleka">http://thinkafricapress.com/central-african-republic/fanning-flames-war-car-seleka</a>
+                    </dd>
+                    <dd><a href="http://www.unhcr.org/522f2c8a9.html">http://www.unhcr.org/522f2c8a9.html</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Colombia:</dt>
+                    <dd><a href="http://www.unhcr.org/cgi-bin/texis/vtx/home/opendocPDFViewer.html?docid=3e71f2014&query=colombian%20refugees">http://www.unhcr.org/cgi-bin/texis/vtx/home/opendocPDFViewer.html?docid=3e71f2014&query=colombian%20refugees</a>
+                    </dd>
+                    <dd><a href="http://www.crisisgroup.org/~/media/Files/latin-america/colombia/colombias-elusive-quest-for-peace.pdf">http://www.crisisgroup.org/~/media/Files/latin-america/colombia/colombias-elusive-quest-for-peace.pdf</a>
+                    </dd>
+                    <dd><a href="http://www.semana.com/nacion/articulo/un-pais-huye/55666-3">http://www.semana.com/nacion/articulo/un-pais-huye/55666-3</a>
+                    </dd>
+                    <dd><a href="http://news.bbc.co.uk/2/hi/americas/1212827.stm">http://news.bbc.co.uk/2/hi/americas/1212827.stm</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Croatia:</dt>
+                    <dd><a href="http://upload.wikimedia.org/wikipedia/commons/8/85/Breakup_of_Yugoslavia.gif">http://upload.wikimedia.org/wikipedia/commons/8/85/Breakup_of_Yugoslavia.gif</a>
+                    </dd>
+                    <dd><a href="http://www.balkaninsight.com/en/article/serbs-commemorate-operation-storm">http://www.balkaninsight.com/en/article/serbs-commemorate-operation-storm</a>
+                    </dd>
+                    <dd><a href="http://www.peri.umass.edu/fileadmin/pdf/Croatia.pdf">http://www.peri.umass.edu/fileadmin/pdf/Croatia.pdf</a>
+                    </dd>
+                    <dd><a href="http://www.cla.purdue.edu/history/facstaff/Ingrao/si/Team_7_Full_Text_Report.pdf">http://www.cla.purdue.edu/history/facstaff/Ingrao/si/Team_7_Full_Text_Report.pdf</a>
+                    </dd>
+                </dl>
+                <dl> 
+                    <dt>Democratic Republic of Congo:</dt>
+                    <dd>
+                        <a href="http://www.irinnews.org/printreport.aspx?reportid=59125">http://www.irinnews.org/printreport.aspx?reportid=59125</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.unhcr.org/42552ef34.html">http://www.unhcr.org/42552ef34.html</a>
+                    </dd>
+                    <dd>
+                        <a href="http://partners.nytimes.com/library/world/090897obit-mobutu.html">http://partners.nytimes.com/library/world/090897obit-mobutu.html</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.hrw.org/news/2009/08/20/dr-congo-chronology-key-events#_Independence">http://www.hrw.org/news/2009/08/20/dr-congo-chronology-key-events#_Independence</a>
+                    </dd>
+                    <dd>
+                        <a href="http://ks29982.kimsufi.com/passerelle/film-ba.php?f=26&o=d&">http://ks29982.kimsufi.com/passerelle/film-ba.php?f=26&o=d&</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.csmonitor.com/World/Africa/2009/0122/p06s01-woaf.html">http://www.csmonitor.com/World/Africa/2009/0122/p06s01-woaf.html</a>
+                    </dd>
+                    <dd>
+                        King Leopold's Ghost, by Adam Hochschild, 1998 Africa's World War, Gérard Prunier, 2009
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>El Salvador:</dt>
+                    <dd>
+                        <a href="http://www.watsoninstitute.org/pub/CallStedmanChap14.pdf">http://www.watsoninstitute.org/pub/CallStedmanChap14.pdf</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.nytimes.com/2009/03/12/world/americas/12salvador.html?pagewanted=all">http://www.nytimes.com/2009/03/12/world/americas/12salvador.html?pagewanted=all</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.pbs.org/itvs/enemiesofwar/timeline.html">http://www.pbs.org/itvs/enemiesofwar/timeline.html</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.nuso.org/upload/articulos/3791_1.pdf">http://www.nuso.org/upload/articulos/3791_1.pdf</a>
+                    </dd>
+                </dl>
+                <dl> 
+                    <dt>Equatorial Guinea:</dt>
+                    <dd>
+                        <a href="http://www.pbs.org/wnet/wideangle/episodes/once-upon-a-coup/history of-equatorial-guinea/5475/">http://www.pbs.org/wnet/wideangle/episodes/once-upon-a-coup/history of-equatorial-guinea/5475/</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.washingtonpost.com/wp-dyn/articles/A1101-2004Sep6.html">http://www.washingtonpost.com/wp-dyn/articles/A1101-2004Sep6.html</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.telegraph.co.uk/comment/personal-view/3610187/If-you-think-this-ones-bad-you-should-have-seen-his-uncle.html">http://www.telegraph.co.uk/comment/personal-view/3610187/If-you-think-this-ones-bad-you-should-have-seen-his-uncle.html</a>
+                    </dd>
+                    <dd>
+                        <a href="http://elpais.com/diario/1979/09/30/internacional/307490404_850215.html">http://elpais.com/diario/1979/09/30/internacional/307490404_850215.html</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Eritrea:</dt>
+                    <dd>
+                        <a href="http://www.bbc.co.uk/news/world-africa-13349395">http://www.bbc.co.uk/news/world-africa-13349395</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.theguardian.com/commentisfree/belief/2009/jun/20/eritrea-refugees-misghina">http://www.theguardian.com/commentisfree/belief/2009/jun/20/eritrea-refugees-misghina</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.freedomhouse.org/report/freedom-world/2013/eritrea-0">http://www.freedomhouse.org/report/freedom-world/2013/eritrea-0</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.hrw.org/node/82280/section/3">http://www.hrw.org/node/82280/section/3</a>
+                    </dd>
+                </dl> 
+                <dt>Ethiopia:</dt>
+                <dd>
+                    <a href="http://www.crisisgroup.org/en/regions/africa/horn-of-africa/ethiopia-eritrea.aspx">http://www.crisisgroup.org/en/regions/africa/horn-of-africa/ethiopia-eritrea.aspx</a>
+                </dd>
+                <dd>
+                    <a href="http://www.hrw.org/legacy/english/docs/1999/11/29/ethiop5495.htm">http://www.hrw.org/legacy/english/docs/1999/11/29/ethiop5495.htm</a>
+                </dd>
+                <dd>
+                    <a href="http://www.scribd.com/doc/7258548/Tareke-Ethiopia-Somalia-War-of-1977">http://www.scribd.com/doc/7258548/Tareke-Ethiopia-Somalia-War-of-1977</a>
+                </dd>
+                <dd>
+                    <a href="http://news.bbc.co.uk/2/hi/8535189.stm">http://news.bbc.co.uk/2/hi/8535189.stm</a>
+                </dd>The Emperor, by Ryszard Kapuściński, 1978</dd>
+                </dl>
+                <dl>
+                    <dt>Guinea:</dt>
+                    <dd>
+                        <a href="http://news.bbc.co.uk/2/hi/africa/7647962.stm">http://news.bbc.co.uk/2/hi/africa/7647962.stm</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.hrw.org/reports/2007/guinea0407/4.htm#_ftn5">http://www.hrw.org/reports/2007/guinea0407/4.htm#_ftn5</a>
+                    </dd>
+                    <dd>
+                        <a href="http://web.mit.edu/cascon/cases/case_gpg.html">http://web.mit.edu/cascon/cases/case_gpg.html</a>
+                    </dd>
+                    <dd>
+                        <a href="http://csis.org/files/publication/anotes_0686.pdf">http://csis.org/files/publication/anotes_0686.pdf</a>
+                    </dd>
+                </dl>
+                <dl>
+                    </dd>
+                    <dt>Iraq:</dt>
+                    <dd>
+                        <a href="http://www.law.depaul.edu/centers_institutes/ihrli/pdf/ihp1.pdf">http://www.law.depaul.edu/centers_institutes/ihrli/pdf/ihp1.pdf</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.washingtonpost.com/wp-dyn/content/article/2007/02/03/AR2007020301604.html">http://www.washingtonpost.com/wp-dyn/content/article/2007/02/03/AR2007020301604.html</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.fas.org/man/dod-101/ops/war/docs/3203/">http://www.fas.org/man/dod-101/ops/war/docs/3203/</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.cemml.colostate.edu/cultural/09476/iraq02-01enl.html">http://www.cemml.colostate.edu/cultural/09476/iraq02-01enl.html</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.nytimes.com/2011/12/14/world/middleeast/united-states-leaving-sunni-awakening-comrades-in-iraq-in-limbo.html?pagewanted=all&_r=0">http://www.nytimes.com/2011/12/14/world/middleeast/united-states-leaving-sunni-awakening-comrades-in-iraq-in-limbo.html?pagewanted=all&_r=0</a>
+                    </dd>
+                </dl>
+                <dl>
+                    </dd>
+                    <dt>Liberia:</dt>
+                    <dd>
+                        <a href="http://ictj.org/sites/default/files/ICTJ-DDR-Liberia-CaseStudy-2009-English.pdf">http://ictj.org/sites/default/files/ICTJ-DDR-Liberia-CaseStudy-2009-English.pdf</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.un.org/en/peacekeeping/missions/unmil/background.shtml">http://www.un.org/en/peacekeeping/missions/unmil/background.shtml</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.pbs.org/newshour/bb/africa/liberia/index.html">http://www.pbs.org/newshour/bb/africa/liberia/index.html</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.npr.org/templates/story/story.php?storyId=14982739">http://www.npr.org/templates/story/story.php?storyId=14982739</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Mali:</dt>
+                    <dd>
+                        <a href="http://www.aljazeera.com/indepth/interactive/2013/08/201381193029529508.html">http://www.aljazeera.com/indepth/interactive/2013/08/201381193029529508.html</a>
+                    </dd>
+                    <dd>
+                        <a href="http://thinkafricapress.com/mali/editors-q-whats-deal-mali">http://thinkafricapress.com/mali/editors-q-whats-deal-mali</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.reuters.com/article/2013/07/27/us-mali-election-refugees-idUSBRE96Q07720130727">http://www.reuters.com/article/2013/07/27/us-mali-election-refugees-idUSBRE96Q07720130727</a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.bbc.co.uk/news/world-africa-24329810">http://www.bbc.co.uk/news/world-africa-24329810</a>
+                    </dd>
+                    <dl>
+                        </dd>
+                        <dt>Mozambique:</dt>
+                        <dd>
+                            <a href="http://pi.library.yorku.ca/ojs/index.php/refuge/article/view/21751/20421">http://pi.library.yorku.ca/ojs/index.php/refuge/article/view/21751/20421</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.academia.edu/171262/War_peace_and_development_in_Mozambique_A_critical_assessment">http://www.academia.edu/171262/War_peace_and_development_in_Mozambique_A_critical_assessment</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.bbc.co.uk/news/world-africa-13890720">http://www.bbc.co.uk/news/world-africa-13890720</a>
+                        </dd>
+                        <dd>
+                            <a href="http://uk.reuters.com/article/2013/07/23/uk-mozambique-politics-insight-idUKBRE">http://uk.reuters.com/article/2013/07/23/uk-mozambique-politics-insight-idUKBRE96M0AT20130723</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Myanmar:</dt>
+                        <dd>
+                            <a href="http://fromburmatonewyork.com">http://fromburmatonewyork.com</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.stimson.org/programs/myanmar-map/#Pa-O">http://www.stimson.org/programs/myanmar-map/#Pa-O</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.washingtonpost.com/wp-srv/world/countries/myanmar.html">http://www.washingtonpost.com/wp-srv/world/countries/myanmar.html</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.bbc.co.uk/news/world-asia-22023830">http://www.bbc.co.uk/news/world-asia-22023830</a>
+                        </dd>
+                        </dd>Burmese Days, by George Orwell, 1934</dd>
+                    </dl>
+                    <dl>
+                        <dt>Namibia:</dt>
+                        <dd>
+                            <a href="http://www.un.org/en/peacekeeping/missions/past/untagFT.htm">http://www.un.org/en/peacekeeping/missions/past/untagFT.htm</a>
+                        </dd>
+                        <dd>
+                            <a href="http://web.mit.edu/cascon/cases/case_nam.html">http://web.mit.edu/cascon/cases/case_nam.html</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.ucdp.uu.se/gpdatabase/gpcountry.php?id=113&</dd>value=">http://www.ucdp.uu.se/gpdatabase/gpcountry.php?id=113&value=</a>
+                        </dd>
+                        </dd>
+                        <dd>South Africa in Namibia: the Botha Strategy, by Robert Jaster, 1985</dd>
+                    </dl>
+                    <dl>
+                        <dt>Nicaragua:</dt>
+                        <dd>
+                            <a href="http://news.bbc.co.uk/2/hi/americas/8157762.stm">http://news.bbc.co.uk/2/hi/americas/8157762.stm</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.brown.edu/Research/Understanding_the_Iran_Contra_Affair/">http://www.brown.edu/Research/Understanding_the_Iran_Contra_Affair/</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.guardian.co.uk/world/1999/jul/19/duncancampbell?INTCMP=SRCH">http://www.guardian.co.uk/world/1999/jul/19/duncancampbell?INTCMP=SRCH</a>
+                        </dd>
+                        <dd>
+                            <a href="http://articles.latimes.com/1990-04-02/news/mn-444_1_honduras-camps">http://articles.latimes.com/1990-04-02/news/mn-444_1_honduras-camps</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Palestine:</dt>
+                        <dd>
+                            <a href="http://www.unrwa.org/etemplate.php?id=86">http://www.unrwa.org/etemplate.php?id=86</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.unrwa.org/userfiles/201006109359.pdf">http://www.unrwa.org/userfiles/201006109359.pdf</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.un.org/apps/news/story.asp?NewsID=44794#.Uht9smTuW3M">http://www.un.org/apps/news/story.asp?NewsID=44794#Uht9smTuW3M</a>
+                        </dd>
+                        </dd>
+                        <dd>
+                            <a href="http://www.bbc.co.uk/news/world-middle-east-14630174">http://www.bbc.co.uk/news/world-middle-east-14630174</a>
+                        </dd>
+                    </dl>
+                    <dl> 
+                        <dt>Philippines:</dt>
+                        <dd>
+                            <a href="http://www.nytimes.com/2008/08/12/world/asia/12phils.html?ref=moroislamicliberationfront">http://www.nytimes.com/2008/08/12/world/asia/12phils.html?ref=moroislamicliberationfront</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.cfr.org/philippines/abu-sayyaf-group-philippines-islamist-separatists/p9235">http://www.cfr.org/philippines/abu-sayyaf-group-philippines-islamist-separatists/p9235</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.irinnews.org/report/98783/mindanao-crisis-deepens-as-displacement-tops-100-000">http://www.irinnews.org/report/98783/mindanao-crisis-deepens-as-displacement-tops-100-000</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.bbc.co.uk/news/world-asia-pacific-11925641">http://www.bbc.co.uk/news/world-asia-pacific-11925641</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        </dd>
+                        <dt>Russia:</dt>
+                        <dd>
+                            <a href="http://www.soviethistory.org/index.php?page=subject&SubjectID=1985perestroika&Year=">http://www.soviethistory.org/index.php?page=subject&SubjectID=1985perestroika&Year=</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.nytimes.com/1991/12/26/world/end-of-the-soviet-union-the-soviet-state-born-of-a-dream-dies.html?pagewanted=all&src=pm">
+                        </dd>
+                        </a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.theatlantic.com/international/archive/2013/04/there-are-almost-no-chechens-in-the-united-states-heres-why/275195/">http://www.theatlantic.com/international/archive/2013/04/there-are-almost-no-chechens-in-the-united-states-heres-why/275195/</a>
+                        </dd>
+                        <dd>Lenin's Tomb: The Last Days of the Soviet Empire, by David Remnick, 1993</dd>
+                    </dl>
+                    <dl>
+                        <dt>Rwanda:</dt>
+                        <dd>
+                            <a href="http://www.un.org/en/preventgenocide/rwanda/education/rwandagenocide.shtml">http://www.un.org/en/preventgenocide/rwanda/education/rwandagenocide.shtml</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.bbc.co.uk/news/world-africa-13431486">http://www.bbc.co.uk/news/world-africa-13431486</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.theatlantic.com/magazine/archive/2001/09/bystanders-to-genocide/304571/?single_page=true">http://www.theatlantic.com/magazine/archive/2001/09/bystanders-to-genocide/304571/?single_page=true</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.franksmyth.com/wp-content/uploads/1994/06/The-Horror.pdf">http://www.franksmyth.com/wp-content/uploads/1994/06/The-Horror.pdf</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Sierra Leone:</dt>
+                        <dd>
+                            <a href="http://www.washingtonpost.com/wp-srv/photo/galleries/sierra_leone/front.htm">http://www.washingtonpost.com/wp-srv/photo/galleries/sierra_leone/front.htm</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.cidcm.umd.edu/mar/assessment.asp?groupId=45104">http://www.cidcm.umd.edu/mar/assessment.asp?groupId=45104</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.unhcr.org/4890898c4.html">http://www.unhcr.org/4890898c4.html</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.un.org/en/peacekeeping/missions/past/unamsil/background.html">http://www.un.org/en/peacekeeping/missions/past/unamsil/background.html</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.globalsecurity.org/military/library/report/1999/crisis-e.htm">http://www.globalsecurity.org/military/library/report/1999/crisis-e.htm</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Somalia:</dt>
+                        <dd>
+                            <a href="http://www.independent.co.uk/news/people/obituary-mohamed-said-barre-1566452.html">http://www.independent.co.uk/news/people/obituary-mohamed-said-barre-1566452.html</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.nytimes.com/2012/04/04/world/africa/somalis-embrace-hope-and-reconstruction-in-mogadishu.html?pagewanted=all&_r=0">
+                            </a>
+                        </dd>
+                        <dd>
+                            <a href="http://refugeesinternational.org/where-we-work/africa/somalia">http://refugeesinternational.org/where-we-work/africa/somalia</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.un.org/apps/news/story.asp?NewsID=45371#.UhUGRGTuW3M">http://www.un.org/apps/news/story.asp?NewsID=45371#.UhUGRGTuW3M</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.un.org/apps/news/story.asp?NewsID=45371#.UhUGRGTuW3M">http://www.un.org/apps/news/story.asp?NewsID=45371#.UhUGRGTuW3M</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Sri Lanka:</dt>
+                        <dd>
+                            <a href="http://www.cfr.org/terrorist-organizations-and-networks/sri-lankan-conflict/p11407#p6">http://www.cfr.org/terrorist-organizations-and-networks/sri-lankan-conflict/p11407#p6</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.crisisgroup.org/en/regions/asia/south-asia/sri-lanka.aspx">http://www.crisisgroup.org/en/regions/asia/south-asia/sri-lanka.aspx</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.nytimes.com/1988/03/19/world/a-war-within-the-sri-lankan-war.html?src=pm">http://www.nytimes.com/1988/03/19/world/a-war-within-the-sri-lankan-war.html?src=pm</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.unhcr.ie/world-refugee-day/sri-lanka-lenas-dilemma">http://www.unhcr.ie/world-refugee-day/sri-lanka-lenas-dilemma</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Sudan:</dt>
+                        <dd>
+                            <a href="http://media.washingtonpost.com/wp-srv/world/pdf/darfur_040707.pdf">http://media.washingtonpost.com/wp-srv/world/pdf/darfur_040707.pdf</a>
+                        </dd>
+                        <dd>
+                            <a href="http://lcweb2.loc.gov/frd/cs/sdtoc.html#sd0033">http://lcweb2.loc.gov/frd/cs/sdtoc.html#sd0033</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.bbc.co.uk/news/world-africa-14095300">http://www.bbc.co.uk/news/world-africa-14095300</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.cfr.org/sudan/africa-darfur-crisis/p7714">http://www.cfr.org/sudan/africa-darfur-crisis/p7714</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.theguardian.com/society/2004/jul/25/internationalaidanddevelopment">http://www.theguardian.com/society/2004/jul/25/internationalaidanddevelopment</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Suriname:</dt>
+                        <dd>
+                            <a href="http://www.nytimes.com/1987/06/18/world/surinam-war-is-devastating-a-bush-society.">http://www.nytimes.com/1987/06/18/world/surinam-war-is-devastating-a-bush-society.html?src=pm</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.nytimes.com/1991/04/14/world/to-suriname-refugees-truce-means-betrayal.html">http://www.nytimes.com/1991/04/14/world/to-suriname-refugees-truce-means-betrayal.html</a>
+                        </dd>
+                        <dd>
+                            <a href="http://lucy.ukc.ac.uk/EthnoAtlas/Hmar/Cult_dir/Culture.7834">http://lucy.ukc.ac.uk/EthnoAtlas/Hmar/Cult_dir/Culture.7834</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.cidh.oas.org/countryrep/Suriname85eng/TOC.htm">http://www.cidh.oas.org/countryrep/Suriname85eng/TOC.htm</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Timor Leste:</dt>
+                        <dd>
+                            <a href="http://news.bbc.co.uk/2/hi/asia-pacific/447639.stm#map">http://news.bbc.co.uk/2/hi/asia-pacific/447639.stm#map</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.un.org/en/peacekeeping/missions/past/etimor/UntaetB.htm">http://www.un.org/en/peacekeeping/missions/past/etimor/UntaetB.htm</a>
+                        </dd>
+                        </dd>
+                        <dd>
+                            <a href="http://www.cavr-timorleste.org/en/index.htm">http://www.cavr-timorleste.org/en/index.htm</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.hrw.org/reports/1999/wtimor/">http://www.hrw.org/reports/1999/wtimor/</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        </dd>
+                        <dt>Uganda:</dt>
+                        <dd>
+                            <a href="http://www.amnesty.org/en/library/asset/AFR59/007/1978/en/f6e31e97-2fa5-42e8-950d-a99854724529/afr590071978en.pdf">http://www.amnesty.org/en/library/asset/AFR59/007/1978/en/f6e31e97-2fa5-42e8-950d-a99854724529/afr590071978en.pdf</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.nytimes.com/2003/08/17/world/idi-amin-murderous-and-erratic-ruler-of-uganda-in-the-70-s-dies-in-exile.html?pagewanted=all&src=pm">http://www.nytimes.com/2003/08/17/world/idi-amin-murderous-and-erratic-ruler-of-uganda-in-the-70-s-dies-in-exile.html?pagewanted=all&src=pm</a>
+                        </dd>
+                        <dd>
+                            <a href="http://memory.loc.gov/frd/cs/ugtoc.html#ug0021">http://memory.loc.gov/frd/cs/ugtoc.html#ug0021</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.bbc.co.uk/news/world-africa-14112446">http://www.bbc.co.uk/news/world-africa-14112446</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        </dd>
+                        <dt>Vietnam:</dt>
+                        <dd>
+                            <a href="https://www.nytimes.com/learning/general/specials/saigon/boatpeople.html">https://www.nytimes.com/learning/general/specials/saigon/boatpeople.html</a>
+                        </dd>
+                        <dd>
+                            <a href="http://lcweb2.loc.gov/frd/cs/vntoc.html#vn0131">http://lcweb2.loc.gov/frd/cs/vntoc.html#vn0131</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.library.ubc.ca/asian/FinalAsian/Vietnam/Thumb/Vietnam.html">http://www.library.ubc.ca/asian/FinalAsian/Vietnam/Thumb/Vietnam.html</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.foreignaffairs.com/articles/32979/barry-wain/the-indochina-refugee-crisis">http://www.foreignaffairs.com/articles/32979/barry-wain/the-indochina-refugee-crisis</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Western Sahara:</dt>
+                        <dd>
+                            <a href="http://www.nrc.no/arch/_img/9258989.pdf ">http://www.nrc.no/arch/_img/9258989.pdf</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.crisisgroup.org/~/media/Files/Middle%20East%20North%20Africa/North%20Africa/ </dd>Western%20Sahara/66_western_sahara___out_of_the_impasse.pdf">http://www.crisisgroup.org/~/media/Files/Middle%20East%20North%20Africa/North%20Africa/ Western%20Sahara/66_western_sahara___out_of_the_impasse.pdf</a>
+                        </dd>
+
+                        <dd>
+                            <a href="http://www.hrw.org/reports/2008/12/19/human-rights-western-sahara-and-tindouf-refugee-camps ">http://www.hrw.org/reports/2008/12/19/human-rights-western-sahara-and-tindouf-refugee-camps</a>
+                        </dd>
+                        <dd>
+                            <a href="http://minurso.unmissions.org/Default.aspx?tabid=9532&language=en-U ">http://minurso.unmissions.org/Default.aspx?tabid=9532&language=en-U</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Yemen:</dt>
+                        <dd>
+                            <a href="http://catdir.loc.gov/catdir/samples/cam031/00029266.pdf ">http://catdir.loc.gov/catdir/samples/cam031/00029266.pdf</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.wrmea.org/wrmea-archives/156-washington-report-archives-1994-1999/july-august-1994/7557-north-and-south-yemen-lead-up-to-the-break-up.html">http://www.wrmea.org/wrmea-archives/156-washington-report-archives-1994-1999/july-august-1994/7557-north-and-south-yemen-lead-up-to-the-break-up.html</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.cs.nmsu.edu/~fmohamed/ancient-ye.html ">http://www.cs.nmsu.edu/~fmohamed/ancient-ye.html</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.time.com/time/world/article/0,8599,2028740,00.html ">http://www.time.com/time/world/article/0,8599,2028740,00.html</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Zimbabwe:</dt>
+                        <dd>
+                            <a href="http://selousscouts.tripod.com/rhodesian%20army%20coin%2072_79%20part2.htm ">http://selousscouts.tripod.com/rhodesian%20army%20coin%2072_79%20part2.htm</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.rhodesia.nl/Rhodesia%20Tactical%20Victory.pdf ">http://www.rhodesia.nl/Rhodesia%20Tactical%20Victory.pdf</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.amnestyusa.org/our-work/countries/africa/zimbabwe ">http://www.amnestyusa.org/our-work/countries/africa/zimbabwe</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.theguardian.com/world/2007/jul/01/zimbabwe.southafrica ">http://www.theguardian.com/world/2007/jul/01/zimbabwe.southafrica</a>
+                        </dd>
+                    </dl>
+            </div>
+        </div>
+    </div>
+
+    <div id="world-zoom-button">
+        <a></a>
+    </div>
+
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
+    
+    <!-- // <script src="js/modernizr.js"></script> -->
+ 
+    <script>
+    $(function() {
+      var scripts = (screen.width > 1024) ?
+      [
+        'js/jquery-migrate.min.js',
+        'js/jquery.autoellipsis.min.js',
+        'js/bootstrap.min.js',
+        'js/d3.min.js',
+        'js/topojson.min.js',
+        'js/queue.min.js',
+        'js/desktop.js'
+      ] : [
+        'js/jquery.flexslider.js',
+        'js/mobile.js'
+      ];
+
+      $.each(scripts, function(k, v) {
+        $('body').append($('<script/>').attr('src', v));
+      });
+    });
+    </script>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-411958-28', 'therefugeeproject.org');
+    ga('send', 'pageview');
+    </script> 
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+compress_assets: off
+
+stylesheets:
+  main:
+    - css/bootstrap.min.css
+    - css/main.css
+  mobile:
+    - css/flexslider.css
+    - css/main.css
+    - css/mobile.css
+
+javascripts:
+  main:
+    - js/jquery-migrate.min.js
+    - js/jquery.autoellipsis.min.js
+    - js/bootstrap.min.js
+    - js/d3.min.js
+    - js/topojson.min.js
+    - js/queue.min.js
+    - js/main.js
+  mobile:
+    - js/jquery.flexslider.js
+    - js/mobile.js

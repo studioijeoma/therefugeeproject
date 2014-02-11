@@ -1,0 +1,19 @@
+{
+  "vars": {},
+  "css": [
+    "type.less",
+    "grid.less",
+    "forms.less",
+    "navs.less",
+    "navbar.less",
+    "badges.less",
+    "tooltip.less",
+    "carousel.less",
+    "utilities.less"
+  ],
+  "js": [
+    "carousel.js",
+    "tooltip.js",
+    "transition.js"
+  ]
+}

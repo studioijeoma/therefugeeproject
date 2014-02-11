@@ -1,0 +1,222 @@
+/* Mobile */
+@media only screen and (max-device-width: 1024px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar {
+    height: 50px;
+    padding: 14px 3px 14px 10px;
+    line-height: 1;
+  }
+  .navbar .navbar-brand {
+    padding: 0;
+  }
+  .navbar .year {
+    display: block;
+    color:#C4C4C4;
+    float: right;
+    margin: 0;
+    font-size: 16px;
+    padding: 4px 6px;
+  }
+  .navbar .toggle, #story-page .close {
+    display: block;
+    color:#C4C4C4;
+    float: right;
+    font-size: 16px;
+    padding: 6px;
+    text-decoration: none;
+  }
+  .navbar-mobile {
+    position: fixed;
+    right: 0;
+    top: 50px;
+    width: 120px;
+    bottom: 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 99;
+  }
+  .navbar-mobile li a.active, .navbar .toggle.active {
+    color: #EF3753;
+  }
+  #home-button img {
+    width: 150px;
+    height: 13px;
+  }
+  #home-page {
+    overflow: visible;
+  }
+  .best-viewed, #world-zoom-button {
+    display: none;
+  }
+  .navbar .collapse {
+    display: none !important;
+  }
+  
+  /* Fonts */
+  .carousel-caption, #stories, #about-page, #story-body {
+    font-size: 14px;
+    line-height: 1.25;
+  }
+  .navbar h2 {
+    font-weight: 500;
+    font-style: normal;
+    font-family:'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B';
+  }
+  #stories {
+    font-weight: 400;
+    font-style: normal;
+    font-family:'Chronicle SSm A', 'Chronicle SSm B';
+  }
+  
+  /* Home */
+  #home-page, #map-page, #about-page, #story-page {
+    opacity: inherit;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    top: 0;
+    padding-top: 50px;
+    width: 100%;
+  }
+  
+  /* About */
+  #about-page, #story-page {
+    padding:60px 10px 10px;
+  }
+  #about-page h1, #story-page h1 {
+    font-size: 18px;
+  }
+  #about-page h2, #story-page h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  #about-page .main {
+    display: none;
+  }
+  
+  /* Maps */
+  .flexslider {
+    border: 0;
+    margin: 0;
+    background: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -o-border-radius: none;
+    border-radius: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+  }
+  .flexslider li {
+    background-color: #28303A;
+  }
+  #map-page {
+    opacity: 0;
+    background: black;
+    position: absolute;
+    top: 0;
+    padding-top: 50px;
+    padding-bottom: 0;
+    height: 100%;
+  }
+  img.map {
+    width: 100%;
+  }
+  img.map + dl {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  img.map + dl dd {
+    margin-bottom: 0;
+    font-size: 32px;
+    line-height: 1;
+  }
+  img.map + dl dt {
+    color: #EF3753;
+  }
+  .top-values {
+    position: relative;
+    text-align: center;
+    height: 36px;
+  }
+  .top-values dt, .top-values dd {
+    width:33.33%;
+    position:absolute;
+  }
+  .top-values dd {
+    top: 16px;
+    color:#6d7988;
+  }
+  .top-values dt:nth-of-type(2), .top-values dd:nth-of-type(2) {
+    left:33.33%;
+  }
+  .top-values dt:nth-of-type(3), .top-values dd:nth-of-type(3) {
+    left:66.66%;
+  }
+  #stories {
+    padding-left: 0;
+    margin: 0;
+  }
+  #stories li, .navbar-mobile li {
+    list-style: none;
+    border-bottom: 1px solid #28303A;
+  }
+  #stories li a, .navbar-mobile li a {
+    background: black;
+    color:#C4C4C4;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+  }
+  #stories li a em {
+    color: #EF3753;
+    font-style: normal;
+  }
+  #story-page {
+    z-index:2;
+    background-color: #182128;
+    height: 100%;
+  }
+  #year-region, #story-head, #story-body {
+    opacity: inherit;
+    padding: 0;
+    height: auto;
+    width: auto;
+    display: block;
+    float: none;
+  }
+  #year-region {
+    margin-top: 0;
+  }
+  #year-region, #story-head {
+    line-height: 1.1;
+  }
+  #story-page .close {
+    padding: 0;
+    margin-right: -1px;
+  }
+}
+@media only screen and (max-device-width: 1024px) and (orientation: landscape) {
+  img.map {
+    margin-top: -20px;
+  }
+  img.map + dl {
+    margin-top: -80px;
+  }
+}
+@media only screen and (max-device-width: 568px) and (orientation: landscape) {
+  img.map {
+    margin-top: -10px;
+  }
+  img.map + dl {
+    margin-top: -50px;
+  }
+}
+@media only screen and (max-device-height: 600px) {
+  .carousel-caption {
+    margin: 10px 10px 0;
+  }
+}

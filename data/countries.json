@@ -1,0 +1,1962 @@
+[
+  {
+    "name": "Afghanistan",
+    "code": "AFG",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South-West Asia",
+    "latitude": 33.93911,
+    "longitude": 67.70995,
+    "timezone": 4.5
+  },
+  {
+    "name": "Albania",
+    "code": "ALB",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 41.15333,
+    "longitude": 20.168331,
+    "timezone": 1
+  },
+  {
+    "name": "Algeria",
+    "code": "DZA",
+    "shortRegion": "Africa",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "North Africa",
+    "latitude": 28.033886,
+    "longitude": 1.659626,
+    "timezone": 1
+  },
+  {
+    "name": "Andorra",
+    "code": "AND",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 42.506287,
+    "longitude": 1.521801,
+    "timezone": 1
+  },
+  {
+    "name": "Angola",
+    "code": "AGO",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Southern Africa",
+    "latitude": -11.202692,
+    "longitude": 17.873886,
+    "timezone": 1
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "code": "ATG",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "North America and the Caribbean",
+    "latitude": 17.060816,
+    "longitude": -61.79643,
+    "timezone": -4
+  },
+  {
+    "name": "Argentina",
+    "code": "ARG",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": -38.416096,
+    "longitude": -63.616673,
+    "timezone": -3
+  },
+  {
+    "name": "Armenia",
+    "code": "ARM",
+    "shortRegion": "Asia",
+    "longRegion": "Europe",
+    "longSubRegion": "Eastern Europe",
+    "latitude": 40.0691,
+    "longitude": 45.03819,
+    "timezone": 4
+  },
+  {
+    "name": "Australia",
+    "code": "AUS",
+    "shortRegion": "Australia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": -25.274399,
+    "longitude": 133.77513,
+    "timezone": 9.5
+  },
+  {
+    "name": "Austria",
+    "code": "AUT",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 47.51623,
+    "longitude": 14.550072,
+    "timezone": 1
+  },
+  {
+    "name": "Azerbaijan",
+    "code": "AZE",
+    "shortRegion": "Asia",
+    "longRegion": "Europe",
+    "longSubRegion": "Eastern Europe",
+    "latitude": 40.143105,
+    "longitude": 47.576927,
+    "timezone": 4
+  },
+  {
+    "name": "Bahamas",
+    "code": "BHS",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "North America and the Caribbean",
+    "latitude": 25.03428,
+    "longitude": -77.39628,
+    "timezone": -5
+  },
+  {
+    "name": "Bahrain",
+    "code": "BHR",
+    "shortRegion": "Asia",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "Middle East",
+    "latitude": 26.0667,
+    "longitude": 50.5577,
+    "timezone": 3
+  },
+  {
+    "name": "Bangladesh",
+    "code": "BGD",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South Asia",
+    "latitude": 23.684994,
+    "longitude": 90.35633,
+    "timezone": 6
+  },
+  {
+    "name": "Barbados",
+    "code": "BRB",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "North America and the Caribbean",
+    "latitude": 13.193887,
+    "longitude": -59.543198,
+    "timezone": -4
+  },
+  {
+    "name": "Belarus",
+    "code": "BLR",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Eastern Europe",
+    "latitude": 53.70981,
+    "longitude": 27.953388,
+    "timezone": 3
+  },
+  {
+    "name": "Belgium",
+    "code": "BEL",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 50.503887,
+    "longitude": 4.469936,
+    "timezone": 1
+  },
+  {
+    "name": "Belize",
+    "code": "BLZ",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": 17.189877,
+    "longitude": -88.49765,
+    "timezone": -6
+  },
+  {
+    "name": "Benin",
+    "code": "BEN",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "West Africa",
+    "latitude": 9.30769,
+    "longitude": 2.315834,
+    "timezone": 1
+  },
+  {
+    "name": "Bhutan",
+    "code": "BTN",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South Asia",
+    "latitude": 27.514162,
+    "longitude": 90.4336,
+    "timezone": 6
+  },
+  {
+    "name": "Bolivarian Republic of Venezuela",
+    "code": "VEN",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": 6.42375,
+    "longitude": -66.58973,
+    "timezone": -4.5
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "code": "BIH",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "South-Eastern Europe",
+    "latitude": 43.915886,
+    "longitude": 17.679075,
+    "timezone": 1
+  },
+  {
+    "name": "Botswana",
+    "code": "BWA",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Southern Africa",
+    "latitude": -22.328474,
+    "longitude": 24.684866,
+    "timezone": 2
+  },
+  {
+    "name": "Brazil",
+    "code": "BRA",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": -14.235004,
+    "longitude": -51.92528,
+    "timezone": -4
+  },
+  {
+    "name": "Brunei Darussalam",
+    "code": "BRN",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South-East Asia",
+    "latitude": 4.535277,
+    "longitude": 114.72767,
+    "timezone": 8
+  },
+  {
+    "name": "Bulgaria",
+    "code": "BGR",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Central Europe",
+    "latitude": 42.733883,
+    "longitude": 25.48583,
+    "timezone": 2
+  },
+  {
+    "name": "Burkina Faso",
+    "code": "BFA",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "West Africa",
+    "latitude": 12.238333,
+    "longitude": -1.561593,
+    "timezone": 0
+  },
+  {
+    "name": "Burundi",
+    "code": "BDI",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Central Africa and the Great Lakes",
+    "latitude": -3.373056,
+    "longitude": 29.918886,
+    "timezone": 2
+  },
+  {
+    "name": "Cambodia",
+    "code": "KHM",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South-East Asia",
+    "latitude": 12.565679,
+    "longitude": 104.99097,
+    "timezone": 7
+  },
+  {
+    "name": "Cameroon",
+    "code": "CMR",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Central Africa and the Great Lakes",
+    "latitude": 7.369722,
+    "longitude": 12.354722,
+    "timezone": 1
+  },
+  {
+    "name": "Canada",
+    "code": "CAN",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "North America and the Caribbean",
+    "latitude": 56.130367,
+    "longitude": -106.34677,
+    "timezone": -6
+  },
+  {
+    "name": "Cape Verde",
+    "code": "CPV",
+    "shortRegion": "Atlantic",
+    "longRegion": "Africa",
+    "longSubRegion": "West Africa",
+    "latitude": 15.121729,
+    "longitude": -23.605082,
+    "timezone": -1
+  },
+  {
+    "name": "Cayman Islands",
+    "code": "NULL",
+    "shortRegion": "America",
+    "longRegion": "NULL",
+    "longSubRegion": "NULL",
+    "latitude": 19.3133,
+    "longitude": -81.2546,
+    "timezone": -5
+  },
+  {
+    "name": "Central African Republic",
+    "code": "CAF",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Central Africa and the Great Lakes",
+    "latitude": 6.611111,
+    "longitude": 20.939444,
+    "timezone": 1
+  },
+  {
+    "name": "Chile",
+    "code": "CHL",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": -35.675148,
+    "longitude": -71.54297,
+    "timezone": -4
+  },
+  {
+    "name": "China",
+    "code": "CHN",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": 35.86166,
+    "longitude": 104.1954,
+    "timezone": 8
+  },
+  {
+    "name": "Colombia",
+    "code": "COL",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": 4.570868,
+    "longitude": -74.29733,
+    "timezone": -5
+  },
+  {
+    "name": "Comoros",
+    "code": "COM",
+    "shortRegion": "Indian",
+    "longRegion": "Africa",
+    "longSubRegion": "Southern Africa",
+    "latitude": -11.6455,
+    "longitude": 43.3333,
+    "timezone": 3
+  },
+  {
+    "name": "Cook Islands",
+    "code": "COK",
+    "shortRegion": "Pacific",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": -21.236736,
+    "longitude": -159.77766,
+    "timezone": -10
+  },
+  {
+    "name": "Costa Rica",
+    "code": "CRI",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": 9.748917,
+    "longitude": -83.753426,
+    "timezone": -6
+  },
+  {
+    "name": "Croatia",
+    "code": "HRV",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "South-Eastern Europe",
+    "latitude": 45.1,
+    "longitude": 15.2,
+    "timezone": 1
+  },
+  {
+    "name": "Cuba",
+    "code": "CUB",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": 21.521757,
+    "longitude": -77.781166,
+    "timezone": -5
+  },
+  {
+    "name": "Cyprus",
+    "code": "CYP",
+    "shortRegion": "Asia",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 35.12641,
+    "longitude": 33.42986,
+    "timezone": 2
+  },
+  {
+    "name": "Czech Republic",
+    "code": "CZE",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Central Europe",
+    "latitude": 49.817493,
+    "longitude": 15.472962,
+    "timezone": 1
+  },
+  {
+    "name": "Côte d'Ivoire",
+    "code": "CIV",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "West Africa",
+    "latitude": 7.539989,
+    "longitude": -5.54708,
+    "timezone": 0
+  },
+  {
+    "name": "Democratic Republic of the Congo",
+    "code": "COD",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Central Africa and the Great Lakes",
+    "latitude": -4.038333,
+    "longitude": 21.758663,
+    "timezone": 2
+  },
+  {
+    "name": "Denmark",
+    "code": "DNK",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 56.26392,
+    "longitude": 9.501785,
+    "timezone": 1
+  },
+  {
+    "name": "Djibouti",
+    "code": "DJI",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "East and Horn of Africa",
+    "latitude": 11.825138,
+    "longitude": 42.590275,
+    "timezone": 3
+  },
+  {
+    "name": "Dominica",
+    "code": "DMA",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "North America and the Caribbean",
+    "latitude": 15.414999,
+    "longitude": -61.370975,
+    "timezone": -4
+  },
+  {
+    "name": "Dominican Republic",
+    "code": "DOM",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "North America and the Caribbean",
+    "latitude": 18.735693,
+    "longitude": -70.16265,
+    "timezone": -4
+  },
+  {
+    "name": "Ecuador",
+    "code": "ECU",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": -1.831239,
+    "longitude": -78.1834,
+    "timezone": -5
+  },
+  {
+    "name": "Egypt",
+    "code": "EGY",
+    "shortRegion": "Africa",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "North Africa",
+    "latitude": 26.820553,
+    "longitude": 30.802498,
+    "timezone": 2
+  },
+  {
+    "name": "El Salvador",
+    "code": "SLV",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": 13.794185,
+    "longitude": -88.89653,
+    "timezone": -6
+  },
+  {
+    "name": "Equatorial Guinea",
+    "code": "GNQ",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Central Africa and the Great Lakes",
+    "latitude": 1.650801,
+    "longitude": 10.267895,
+    "timezone": 1
+  },
+  {
+    "name": "Eritrea",
+    "code": "ERI",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "East and Horn of Africa",
+    "latitude": 15.179384,
+    "longitude": 39.782333,
+    "timezone": 3
+  },
+  {
+    "name": "Estonia",
+    "code": "EST",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 58.595272,
+    "longitude": 25.013607,
+    "timezone": 2
+  },
+  {
+    "name": "Ethiopia",
+    "code": "ETH",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "East and Horn of Africa",
+    "latitude": 9.145,
+    "longitude": 40.489674,
+    "timezone": 3
+  },
+  {
+    "name": "Federated States of Micronesia",
+    "code": "FSM",
+    "shortRegion": "Pacific",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": 6.8874574,
+    "longitude": 158.21507,
+    "timezone": 11
+  },
+  {
+    "name": "Fiji",
+    "code": "FJI",
+    "shortRegion": "Pacific",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": -17.713371,
+    "longitude": 178.06503,
+    "timezone": 12
+  },
+  {
+    "name": "Finland",
+    "code": "FIN",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 61.92411,
+    "longitude": 25.748152,
+    "timezone": 2
+  },
+  {
+    "name": "France",
+    "code": "FRA",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 46.22764,
+    "longitude": 2.213749,
+    "timezone": 1
+  },
+  {
+    "name": "Gabon",
+    "code": "GAB",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Central Africa and the Great Lakes",
+    "latitude": -0.803689,
+    "longitude": 11.609444,
+    "timezone": 1
+  },
+  {
+    "name": "Gambia",
+    "code": "GMB",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "West Africa",
+    "latitude": 13.443182,
+    "longitude": -15.310139,
+    "timezone": 0
+  },
+  {
+    "name": "Georgia",
+    "code": "GEO",
+    "shortRegion": "Asia",
+    "longRegion": "Europe",
+    "longSubRegion": "Eastern Europe",
+    "latitude": 42.315407,
+    "longitude": 43.35689,
+    "timezone": 4
+  },
+  {
+    "name": "Germany",
+    "code": "DEU",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 51.16569,
+    "longitude": 10.451526,
+    "timezone": 1
+  },
+  {
+    "name": "Ghana",
+    "code": "GHA",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "West Africa",
+    "latitude": 7.946527,
+    "longitude": -1.023194,
+    "timezone": 0
+  },
+  {
+    "name": "Gibraltar",
+    "code": "NULL",
+    "shortRegion": "Europe",
+    "longRegion": "NULL",
+    "longSubRegion": "NULL",
+    "latitude": 36.14075,
+    "longitude": -5.353585,
+    "timezone": 1
+  },
+  {
+    "name": "Greece",
+    "code": "GRC",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 39.074207,
+    "longitude": 21.824312,
+    "timezone": 2
+  },
+  {
+    "name": "Grenada",
+    "code": "GRD",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "North America and the Caribbean",
+    "latitude": 12.1165,
+    "longitude": -61.679,
+    "timezone": -4
+  },
+  {
+    "name": "Guatemala",
+    "code": "GTM",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": 15.783471,
+    "longitude": -90.23076,
+    "timezone": -6
+  },
+  {
+    "name": "Guinea",
+    "code": "GIN",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "West Africa",
+    "latitude": 9.945587,
+    "longitude": -9.696645,
+    "timezone": 0
+  },
+  {
+    "name": "Guinea-Bissau",
+    "code": "GNB",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "West Africa",
+    "latitude": 11.803749,
+    "longitude": -15.180413,
+    "timezone": 0
+  },
+  {
+    "name": "Guyana",
+    "code": "GUY",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": 4.860416,
+    "longitude": -58.93018,
+    "timezone": -4
+  },
+  {
+    "name": "Haiti",
+    "code": "HTI",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "North America and the Caribbean",
+    "latitude": 18.971188,
+    "longitude": -72.28522,
+    "timezone": -5
+  },
+  {
+    "name": "Honduras",
+    "code": "HND",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": 15.199999,
+    "longitude": -86.241905,
+    "timezone": -6
+  },
+  {
+    "name": "Hong Kong (CHN)",
+    "code": "HKG",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": 22.396427,
+    "longitude": 114.1095,
+    "timezone": 8
+  },
+  {
+    "name": "Hungary",
+    "code": "HUN",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Central Europe",
+    "latitude": 47.162495,
+    "longitude": 19.503304,
+    "timezone": 1
+  },
+  {
+    "name": "Iceland",
+    "code": "ISL",
+    "shortRegion": "Atlantic",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 64.96305,
+    "longitude": -19.020836,
+    "timezone": 0
+  },
+  {
+    "name": "India",
+    "code": "IND",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South Asia",
+    "latitude": 20.593683,
+    "longitude": 78.96288,
+    "timezone": 5.5
+  },
+  {
+    "name": "Indonesia",
+    "code": "IDN",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South-East Asia",
+    "latitude": -0.789275,
+    "longitude": 113.921326,
+    "timezone": 7
+  },
+  {
+    "name": "Iraq",
+    "code": "IRQ",
+    "shortRegion": "Asia",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "Middle East",
+    "latitude": 33.22319,
+    "longitude": 43.67929,
+    "timezone": 3
+  },
+  {
+    "name": "Ireland",
+    "code": "IRL",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 53.41291,
+    "longitude": -8.24389,
+    "timezone": 0
+  },
+  {
+    "name": "Islamic Republic of Iran",
+    "code": "IRN",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South-West Asia",
+    "latitude": 32.42791,
+    "longitude": 53.688046,
+    "timezone": 3.5
+  },
+  {
+    "name": "Israel",
+    "code": "ISR",
+    "shortRegion": "Asia",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "Middle East",
+    "latitude": 31.046051,
+    "longitude": 34.851612,
+    "timezone": 2
+  },
+  {
+    "name": "Italy",
+    "code": "ITA",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 41.87194,
+    "longitude": 12.56738,
+    "timezone": 1
+  },
+  {
+    "name": "Jamaica",
+    "code": "JAM",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "North America and the Caribbean",
+    "latitude": 18.109581,
+    "longitude": -77.29751,
+    "timezone": -5
+  },
+  {
+    "name": "Japan",
+    "code": "JPN",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": 36.204823,
+    "longitude": 138.25293,
+    "timezone": 9
+  },
+  {
+    "name": "Jordan",
+    "code": "JOR",
+    "shortRegion": "Asia",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "Middle East",
+    "latitude": 30.585163,
+    "longitude": 36.238415,
+    "timezone": 2
+  },
+  {
+    "name": "Kazakhstan",
+    "code": "KAZ",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "Central Asia",
+    "latitude": 48.019573,
+    "longitude": 66.92368,
+    "timezone": 6
+  },
+  {
+    "name": "Kenya",
+    "code": "KEN",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "East and Horn of Africa",
+    "latitude": -0.023559,
+    "longitude": 37.906193,
+    "timezone": 3
+  },
+  {
+    "name": "Kiribati",
+    "code": "KIR",
+    "shortRegion": "Pacific",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": 1.8668576,
+    "longitude": -157.35992,
+    "timezone": 14
+  },
+  {
+    "name": "Kuwait",
+    "code": "KWT",
+    "shortRegion": "Asia",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "Middle East",
+    "latitude": 29.31166,
+    "longitude": 47.481766,
+    "timezone": 3
+  },
+  {
+    "name": "Kyrgyzstan",
+    "code": "KGZ",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "Central Asia",
+    "latitude": 41.20438,
+    "longitude": 74.7661,
+    "timezone": 6
+  },
+  {
+    "name": "Lao People's Democratic Republic",
+    "code": "LAO",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South-East Asia",
+    "latitude": 19.85627,
+    "longitude": 102.4955,
+    "timezone": 7
+  },
+  {
+    "name": "Latvia",
+    "code": "LVA",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 56.879635,
+    "longitude": 24.60319,
+    "timezone": 2
+  },
+  {
+    "name": "Lebanon",
+    "code": "LBN",
+    "shortRegion": "Asia",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "Middle East",
+    "latitude": 33.85472,
+    "longitude": 35.862286,
+    "timezone": 2
+  },
+  {
+    "name": "Lesotho",
+    "code": "LSO",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Southern Africa",
+    "latitude": -29.609987,
+    "longitude": 28.233608,
+    "timezone": 2
+  },
+  {
+    "name": "Liberia",
+    "code": "LBR",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "West Africa",
+    "latitude": 6.428055,
+    "longitude": -9.429499,
+    "timezone": 0
+  },
+  {
+    "name": "Libyan Arab Jamahiriya",
+    "code": "LBY",
+    "shortRegion": "Africa",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "North Africa",
+    "latitude": 26.3351,
+    "longitude": 17.22833,
+    "timezone": 2
+  },
+  {
+    "name": "Liechtenstein",
+    "code": "LIE",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 47.166,
+    "longitude": 9.555373,
+    "timezone": 1
+  },
+  {
+    "name": "Lithuania",
+    "code": "LTU",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 55.169437,
+    "longitude": 23.881275,
+    "timezone": 2
+  },
+  {
+    "name": "Luxembourg",
+    "code": "LUX",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 49.815273,
+    "longitude": 6.129583,
+    "timezone": 1
+  },
+  {
+    "name": "Macao (CHN)",
+    "code": "MAC",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": 22.198746,
+    "longitude": 113.54388,
+    "timezone": 8
+  },
+  {
+    "name": "Madagascar",
+    "code": "MDG",
+    "shortRegion": "Indian",
+    "longRegion": "Africa",
+    "longSubRegion": "Southern Africa",
+    "latitude": -18.766947,
+    "longitude": 46.869106,
+    "timezone": 3
+  },
+  {
+    "name": "Malawi",
+    "code": "MWI",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Southern Africa",
+    "latitude": -13.254308,
+    "longitude": 34.301525,
+    "timezone": 2
+  },
+  {
+    "name": "Malaysia",
+    "code": "MYS",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South-East Asia",
+    "latitude": 4.210484,
+    "longitude": 101.97577,
+    "timezone": 8
+  },
+  {
+    "name": "Maldives",
+    "code": "MDV",
+    "shortRegion": "Indian",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South Asia",
+    "latitude": 1.9772469,
+    "longitude": 73.5361,
+    "timezone": 5
+  },
+  {
+    "name": "Mali",
+    "code": "MLI",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "West Africa",
+    "latitude": 17.570692,
+    "longitude": -3.996166,
+    "timezone": 0
+  },
+  {
+    "name": "Malta",
+    "code": "MLT",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 35.937496,
+    "longitude": 14.375416,
+    "timezone": 1
+  },
+  {
+    "name": "Mauritania",
+    "code": "MRT",
+    "shortRegion": "Africa",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "North Africa",
+    "latitude": 21.00789,
+    "longitude": -10.940835,
+    "timezone": 0
+  },
+  {
+    "name": "Mauritius",
+    "code": "MUS",
+    "shortRegion": "Indian",
+    "longRegion": "Africa",
+    "longSubRegion": "Southern Africa",
+    "latitude": -20.348404,
+    "longitude": 57.55215,
+    "timezone": 4
+  },
+  {
+    "name": "Mexico",
+    "code": "MEX",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": 23.6345,
+    "longitude": -102.55279,
+    "timezone": -6
+  },
+  {
+    "name": "Monaco",
+    "code": "MCO",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 43.73842,
+    "longitude": 7.424616,
+    "timezone": 1
+  },
+  {
+    "name": "Mongolia",
+    "code": "MNG",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": 46.862495,
+    "longitude": 103.84666,
+    "timezone": 8
+  },
+  {
+    "name": "Montenegro",
+    "code": "MNE",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "South-Eastern Europe",
+    "latitude": 42.70868,
+    "longitude": 19.37439,
+    "timezone": 1
+  },
+  {
+    "name": "Morocco",
+    "code": "MAR",
+    "shortRegion": "Africa",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "North Africa",
+    "latitude": 31.791702,
+    "longitude": -7.09262,
+    "timezone": 0
+  },
+  {
+    "name": "Mozambique",
+    "code": "MOZ",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Southern Africa",
+    "latitude": -18.665695,
+    "longitude": 35.529564,
+    "timezone": 2
+  },
+  {
+    "name": "Myanmar",
+    "code": "MMR",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South-East Asia",
+    "latitude": 21.913965,
+    "longitude": 95.95622,
+    "timezone": 6.5
+  },
+  {
+    "name": "Namibia",
+    "code": "NAM",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Southern Africa",
+    "latitude": -22.95764,
+    "longitude": 18.49041,
+    "timezone": 1
+  },
+  {
+    "name": "Nauru",
+    "code": "NRU",
+    "shortRegion": "Pacific",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": -0.522778,
+    "longitude": 166.9315,
+    "timezone": 12
+  },
+  {
+    "name": "Nepal",
+    "code": "NPL",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South Asia",
+    "latitude": 28.394857,
+    "longitude": 84.12401,
+    "timezone": 5.75
+  },
+  {
+    "name": "Netherlands",
+    "code": "NLD",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 52.132633,
+    "longitude": 5.291266,
+    "timezone": 1
+  },
+  {
+    "name": "New Zealand",
+    "code": "NZL",
+    "shortRegion": "Pacific",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": -40.90056,
+    "longitude": 174.88597,
+    "timezone": 12
+  },
+  {
+    "name": "Nicaragua",
+    "code": "NIC",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": 12.865416,
+    "longitude": -85.20723,
+    "timezone": -6
+  },
+  {
+    "name": "Niger",
+    "code": "NER",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "West Africa",
+    "latitude": 17.607788,
+    "longitude": 8.081666,
+    "timezone": 1
+  },
+  {
+    "name": "Nigeria",
+    "code": "NGA",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "West Africa",
+    "latitude": 9.081999,
+    "longitude": 8.675277,
+    "timezone": 1
+  },
+  {
+    "name": "Norway",
+    "code": "NOR",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 60.472023,
+    "longitude": 8.468946,
+    "timezone": 1
+  },
+  {
+    "name": "Oman",
+    "code": "OMN",
+    "shortRegion": "Asia",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "Middle East",
+    "latitude": 21.512583,
+    "longitude": 55.923256,
+    "timezone": 4
+  },
+  {
+    "name": "Pakistan",
+    "code": "PAK",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South-West Asia",
+    "latitude": 30.37532,
+    "longitude": 69.345116,
+    "timezone": 5
+  },
+  {
+    "name": "Palau",
+    "code": "PLW",
+    "shortRegion": "Pacific",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": 7.51498,
+    "longitude": 134.58252,
+    "timezone": 9
+  },
+  {
+    "name": "Panama",
+    "code": "PAN",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": 8.537981,
+    "longitude": -80.78213,
+    "timezone": -5
+  },
+  {
+    "name": "Papua New Guinea",
+    "code": "PNG",
+    "shortRegion": "Pacific",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": -6.314993,
+    "longitude": 143.95555,
+    "timezone": 10
+  },
+  {
+    "name": "Paraguay",
+    "code": "PRY",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": -23.442503,
+    "longitude": -58.443832,
+    "timezone": -4
+  },
+  {
+    "name": "Peru",
+    "code": "PER",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": -9.189967,
+    "longitude": -75.01515,
+    "timezone": -5
+  },
+  {
+    "name": "Philippines",
+    "code": "PHL",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South-East Asia",
+    "latitude": 12.879721,
+    "longitude": 121.77402,
+    "timezone": 8
+  },
+  {
+    "name": "Plurinational State of Bolivia",
+    "code": "BOL",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": -16.290154,
+    "longitude": -63.588654,
+    "timezone": -4
+  },
+  {
+    "name": "Poland",
+    "code": "POL",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Central Europe",
+    "latitude": 51.919437,
+    "longitude": 19.145136,
+    "timezone": 1
+  },
+  {
+    "name": "Portugal",
+    "code": "PRT",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 39.39987,
+    "longitude": -8.224454,
+    "timezone": 0
+  },
+  {
+    "name": "Qatar",
+    "code": "QAT",
+    "shortRegion": "Asia",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "Middle East",
+    "latitude": 25.354826,
+    "longitude": 51.183884,
+    "timezone": 3
+  },
+  {
+    "name": "Republic of Korea",
+    "code": "KOR",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": 35.907757,
+    "longitude": 127.76692,
+    "timezone": 9
+  },
+  {
+    "name": "Republic of Moldova",
+    "code": "MDA",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Eastern Europe",
+    "latitude": 47.411633,
+    "longitude": 28.369884,
+    "timezone": 2
+  },
+  {
+    "name": "Republic of the Congo",
+    "code": "COG",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Central Africa and the Great Lakes",
+    "latitude": -0.228021,
+    "longitude": 15.827659,
+    "timezone": 1
+  },
+  {
+    "name": "Romania",
+    "code": "ROU",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Central Europe",
+    "latitude": 45.94316,
+    "longitude": 24.96676,
+    "timezone": 2
+  },
+  {
+    "name": "Russian Federation",
+    "code": "RUS",
+    "shortRegion": "Asia",
+    "longRegion": "Europe",
+    "longSubRegion": "Eastern Europe",
+    "latitude": 61.52401,
+    "longitude": 105.318756,
+    "timezone": 8
+  },
+  {
+    "name": "Rwanda",
+    "code": "RWA",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Central Africa and the Great Lakes",
+    "latitude": -1.940278,
+    "longitude": 29.873888,
+    "timezone": 2
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "code": "KNA",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "North America and the Caribbean",
+    "latitude": 17.357822,
+    "longitude": -62.782997,
+    "timezone": -4
+  },
+  {
+    "name": "Saint Lucia",
+    "code": "LCA",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "North America and the Caribbean",
+    "latitude": 13.909444,
+    "longitude": -60.978893,
+    "timezone": -4
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "code": "VCT",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "North America and the Caribbean",
+    "latitude": 13.253384,
+    "longitude": -61.19625,
+    "timezone": -4
+  },
+  {
+    "name": "Samoa",
+    "code": "WSM",
+    "shortRegion": "Pacific",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": -13.759029,
+    "longitude": -172.10463,
+    "timezone": 13
+  },
+  {
+    "name": "San Marino",
+    "code": "SMR",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 43.94236,
+    "longitude": 12.457777,
+    "timezone": 1
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "code": "STP",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Central Africa and the Great Lakes",
+    "latitude": 0.18636,
+    "longitude": 6.613081,
+    "timezone": 0
+  },
+  {
+    "name": "Saudi Arabia",
+    "code": "SAU",
+    "shortRegion": "Asia",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "Middle East",
+    "latitude": 23.885942,
+    "longitude": 45.079163,
+    "timezone": 3
+  },
+  {
+    "name": "Senegal",
+    "code": "SEN",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "West Africa",
+    "latitude": 14.497401,
+    "longitude": -14.452362,
+    "timezone": 0
+  },
+  {
+    "name": "Serbia*",
+    "code": "SRB",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "South-Eastern Europe",
+    "latitude": 44.01652,
+    "longitude": 21.00586,
+    "timezone": 1
+  },
+  {
+    "name": "Seychelles",
+    "code": "SYC",
+    "shortRegion": "Indian",
+    "longRegion": "Africa",
+    "longSubRegion": "East and Horn of Africa",
+    "latitude": -4.679574,
+    "longitude": 55.491978,
+    "timezone": 4
+  },
+  {
+    "name": "Sierra Leone",
+    "code": "SLE",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "West Africa",
+    "latitude": 8.460555,
+    "longitude": -11.779889,
+    "timezone": 0
+  },
+  {
+    "name": "Singapore",
+    "code": "SGP",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South-East Asia",
+    "latitude": 1.352083,
+    "longitude": 103.81984,
+    "timezone": 8
+  },
+  {
+    "name": "Slovakia",
+    "code": "SVK",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Central Europe",
+    "latitude": 48.669025,
+    "longitude": 19.699024,
+    "timezone": 1
+  },
+  {
+    "name": "Slovenia",
+    "code": "SVN",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Central Europe",
+    "latitude": 46.15124,
+    "longitude": 14.995463,
+    "timezone": 1
+  },
+  {
+    "name": "Solomon Islands",
+    "code": "SLB",
+    "shortRegion": "Pacific",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": -9.64571,
+    "longitude": 160.15619,
+    "timezone": 11
+  },
+  {
+    "name": "Somalia",
+    "code": "SOM",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "East and Horn of Africa",
+    "latitude": 5.152149,
+    "longitude": 46.199615,
+    "timezone": 3
+  },
+  {
+    "name": "South Africa",
+    "code": "ZAF",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Southern Africa",
+    "latitude": -30.559483,
+    "longitude": 22.937506,
+    "timezone": 2
+  },
+  {
+    "name": "Spain",
+    "code": "ESP",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 40.46367,
+    "longitude": -3.74922,
+    "timezone": 1
+  },
+  {
+    "name": "Sri Lanka",
+    "code": "LKA",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South Asia",
+    "latitude": 7.873054,
+    "longitude": 80.7718,
+    "timezone": 5.5
+  },
+  {
+    "name": "Sudan",
+    "code": "SDN",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "East and Horn of Africa",
+    "latitude": 12.862807,
+    "longitude": 30.217636,
+    "timezone": 3
+  },
+  {
+    "name": "Suriname",
+    "code": "SUR",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": 3.919305,
+    "longitude": -56.027782,
+    "timezone": -3
+  },
+  {
+    "name": "Swaziland",
+    "code": "SWZ",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Southern Africa",
+    "latitude": -26.522503,
+    "longitude": 31.465866,
+    "timezone": 2
+  },
+  {
+    "name": "Sweden",
+    "code": "SWE",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 60.128162,
+    "longitude": 18.643501,
+    "timezone": 1
+  },
+  {
+    "name": "Switzerland",
+    "code": "CHE",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 46.818188,
+    "longitude": 8.227512,
+    "timezone": 1
+  },
+  {
+    "name": "Syrian Arab Republic",
+    "code": "SYR",
+    "shortRegion": "Asia",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "Middle East",
+    "latitude": 34.802074,
+    "longitude": 38.996815,
+    "timezone": 2
+  },
+  {
+    "name": "Tajikistan",
+    "code": "TJK",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "Central Asia",
+    "latitude": 38.861034,
+    "longitude": 71.27609,
+    "timezone": 5
+  },
+  {
+    "name": "Thailand",
+    "code": "THA",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South-East Asia",
+    "latitude": 15.870032,
+    "longitude": 100.99254,
+    "timezone": 7
+  },
+  {
+    "name": "The former Yugoslav Republic of Macedonia",
+    "code": "MKD",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "South-Eastern Europe",
+    "latitude": 41.608635,
+    "longitude": 21.745275,
+    "timezone": 1
+  },
+  {
+    "name": "Timor-Leste",
+    "code": "TLS",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South-East Asia",
+    "latitude": -8.874217,
+    "longitude": 125.72754,
+    "timezone": 9
+  },
+  {
+    "name": "Togo",
+    "code": "TGO",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "West Africa",
+    "latitude": 8.619543,
+    "longitude": 0.824782,
+    "timezone": 0
+  },
+  {
+    "name": "Tonga",
+    "code": "TON",
+    "shortRegion": "Pacific",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": -21.178986,
+    "longitude": -175.19824,
+    "timezone": 13
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "code": "TTO",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "North America and the Caribbean",
+    "latitude": 10.691803,
+    "longitude": -61.222504,
+    "timezone": -4
+  },
+  {
+    "name": "Tunisia",
+    "code": "TUN",
+    "shortRegion": "Africa",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "North Africa",
+    "latitude": 33.886917,
+    "longitude": 9.537499,
+    "timezone": 1
+  },
+  {
+    "name": "Turkey",
+    "code": "TUR",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Eastern Europe",
+    "latitude": 38.963745,
+    "longitude": 35.24332,
+    "timezone": 2
+  },
+  {
+    "name": "Turkmenistan",
+    "code": "TKM",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "Central Asia",
+    "latitude": 38.96972,
+    "longitude": 59.55628,
+    "timezone": 5
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "code": "NULL",
+    "shortRegion": "America",
+    "longRegion": "NULL",
+    "longSubRegion": "NULL",
+    "latitude": 21.694025,
+    "longitude": -71.79793,
+    "timezone": -5
+  },
+  {
+    "name": "Tuvalu",
+    "code": "TUV",
+    "shortRegion": "Pacific",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": -8.520428,
+    "longitude": 179.1992,
+    "timezone": 12
+  },
+  {
+    "name": "Uganda",
+    "code": "UGA",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "East and Horn of Africa",
+    "latitude": 1.373333,
+    "longitude": 32.290276,
+    "timezone": 3
+  },
+  {
+    "name": "Ukraine",
+    "code": "UKR",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Eastern Europe",
+    "latitude": 48.379433,
+    "longitude": 31.16558,
+    "timezone": 2
+  },
+  {
+    "name": "United Arab Emirates",
+    "code": "ARE",
+    "shortRegion": "Asia",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "Middle East",
+    "latitude": 23.424076,
+    "longitude": 53.847816,
+    "timezone": 4
+  },
+  {
+    "name": "United Kingdom of Great Britain and Northern Ireland",
+    "code": "GBR",
+    "shortRegion": "Europe",
+    "longRegion": "Europe",
+    "longSubRegion": "Northern Western and Southern EuropedeparturesMax",
+    "latitude": 55.37805,
+    "longitude": -3.435973,
+    "timezone": 0
+  },
+  {
+    "name": "United Republic of Tanzania",
+    "code": "TZA",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Central Africa and the Great Lakes",
+    "latitude": -6.369028,
+    "longitude": 34.88882,
+    "timezone": 3
+  },
+  {
+    "name": "United States of America",
+    "code": "USA",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "North America and the Caribbean",
+    "latitude": 37.09024,
+    "longitude": -95.71289,
+    "timezone": -6
+  },
+  {
+    "name": "Uruguay",
+    "code": "URY",
+    "shortRegion": "America",
+    "longRegion": "The Americas",
+    "longSubRegion": "Latin America",
+    "latitude": -32.522778,
+    "longitude": -55.765835,
+    "timezone": -3
+  },
+  {
+    "name": "Uzbekistan",
+    "code": "UZB",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "Central Asia",
+    "latitude": 41.37749,
+    "longitude": 64.58526,
+    "timezone": 5
+  },
+  {
+    "name": "Vanuatu",
+    "code": "VUT",
+    "shortRegion": "Pacific",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "East Asia and the Pacific",
+    "latitude": -15.376706,
+    "longitude": 166.95915,
+    "timezone": 11
+  },
+  {
+    "name": "Vietnam",
+    "code": "VNM",
+    "shortRegion": "Asia",
+    "longRegion": "Asia and the Pacific",
+    "longSubRegion": "South-East Asia",
+    "latitude": 14.058324,
+    "longitude": 108.2772,
+    "timezone": 7
+  },
+  {
+    "name": "Western Sahara",
+    "code": "ESH",
+    "shortRegion": "Africa",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "North Africa",
+    "latitude": 24.215527,
+    "longitude": -12.885834,
+    "timezone": 0
+  },
+  {
+    "name": "Yemen",
+    "code": "YEM",
+    "shortRegion": "Asia",
+    "longRegion": "Middle East and North Africa",
+    "longSubRegion": "Middle East",
+    "latitude": 15.552727,
+    "longitude": 48.516388,
+    "timezone": 3
+  },
+  {
+    "name": "Zambia",
+    "code": "ZMB",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Southern Africa",
+    "latitude": -13.133897,
+    "longitude": 27.849333,
+    "timezone": 2
+  },
+  {
+    "name": "Zimbabwe",
+    "code": "ZWE",
+    "shortRegion": "Africa",
+    "longRegion": "Africa",
+    "longSubRegion": "Southern Africa",
+    "latitude": -19.015438,
+    "longitude": 29.154858,
+    "timezone": 2
+  }
+]

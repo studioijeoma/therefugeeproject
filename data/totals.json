@@ -1,0 +1,343 @@
+[{
+    "year": 1975,
+    "total": "3,529,434",
+    "country1": "Angola",
+    "country1_total": "501,830",
+    "country2": "Guinea",
+    "country2_total": "300,000",
+    "country3": "Rwanda",
+    "country3_total": "175,720"
+}, {
+    "year": 1976,
+    "total": "4,270,631",
+    "country1": "Guinea",
+    "country1_total": "500,000",
+    "country2": "Angola",
+    "country2_total": "499,190",
+    "country3": "Rwanda",
+    "country3_total": "176,410"
+}, {
+    "year": 1977,
+    "total": "4,518,659",
+    "country1": "Ethiopia",
+    "country1_total": "655,350",
+    "country2": "Angola",
+    "country2_total": "529,830",
+    "country3": "Dem. Rep. of the Congo",
+    "country3_total": "264,940"
+}, {
+    "year": 1978,
+    "total": "5,065,844",
+    "country1": "Ethiopia",
+    "country1_total": "887,670",
+    "country2": "Angola",
+    "country2_total": "646,110",
+    "country3": "Rwanda",
+    "country3_total": "175,110"
+}, {
+    "year": 1979,
+    "total": "6,279,912",
+    "country1": "Ethiopia",
+    "country1_total": "1,623,870",
+    "country2": "Angola",
+    "country2_total": "652,980",
+    "country3": "Afghanistan",
+    "country3_total": "500,000"
+}, {
+    "year": 1980,
+    "total": "8,454,937",
+    "country1": "Ethiopia",
+    "country1_total": "2,567,998",
+    "country2": "Afghanistan",
+    "country2_total": "1,734,921",
+    "country3": "Angola",
+    "country3_total": "449,030"
+}, {
+    "year": 1981,
+    "total": "9,714,306",
+    "country1": "Afghanistan",
+    "country1_total": "3,879,984",
+    "country2": "Ethiopia",
+    "country2_total": "1,363,266",
+    "country3": "Angola",
+    "country3_total": "457,060"
+}, {
+    "year": 1982,
+    "total": "10,319,369",
+    "country1": "Afghanistan",
+    "country1_total": "4,488,214",
+    "country2": "Ethiopia",
+    "country2_total": "1,334,915",
+    "country3": "Angola",
+    "country3_total": "465,891"
+}, {
+    "year": 1983,
+    "total": "10,620,803",
+    "country1": "Afghanistan",
+    "country1_total": "4,712,735",
+    "country2": "Ethiopia",
+    "country2_total": "1,351,917",
+    "country3": "Viet Nam",
+    "country3_total": "328,399"
+}, {
+    "year": 1984,
+    "total": "10,728,326",
+    "country1": "Afghanistan",
+    "country1_total": "4,417,651",
+    "country2": "Ethiopia",
+    "country2_total": "1,546,134",
+    "country3": "Angola",
+    "country3_total": "357,821"
+}, {
+    "year": 1985,
+    "total": "11,864,062",
+    "country1": "Afghanistan",
+    "country1_total": "4,653,193",
+    "country2": "Ethiopia",
+    "country2_total": "1,749,309",
+    "country3": "Iraq",
+    "country3_total": "401,503"
+}, {
+    "year": 1986,
+    "total": "12,633,974",
+    "country1": "Afghanistan",
+    "country1_total": "5,094,283",
+    "country2": "Ethiopia",
+    "country2_total": "1,534,548",
+    "country3": "Iraq",
+    "country3_total": "400,745"
+}, {
+    "year": 1987,
+    "total": "13,128,347",
+    "country1": "Afghanistan",
+    "country1_total": "5,511,740",
+    "country2": "Ethiopia",
+    "country2_total": "1,487,663",
+    "country3": "Mozambique",
+    "country3_total": "635,000"
+}, {
+    "year": 1988,
+    "total": "14,347,051",
+    "country1": "Afghanistan",
+    "country1_total": "5,622,982",
+    "country2": "Ethiopia",
+    "country2_total": "1,513,307",
+    "country3": "Mozambique",
+    "country3_total": "921,238"
+}, {
+    "year": 1989,
+    "total": "14,732,934",
+    "country1": "Afghanistan",
+    "country1_total": "5,643,989",
+    "country2": "Ethiopia",
+    "country2_total": "1,474,919",
+    "country3": "Mozambique",
+    "country3_total": "1,120,758"
+}, {
+    "year": 1990,
+    "total": "17,395,979",
+    "country1": "Afghanistan",
+    "country1_total": "6,339,095",
+    "country2": "Ethiopia",
+    "country2_total": "1,345,928",
+    "country3": "Mozambique",
+    "country3_total": "1,247,992"
+}, {
+    "year": 1991,
+    "total": "16,854,795",
+    "country1": "Afghanistan",
+    "country1_total": "6,306,301",
+    "country2": "Iraq",
+    "country2_total": "1,321,853",
+    "country3": "Mozambique",
+    "country3_total": "1,316,636"
+}, {
+    "year": 1992,
+    "total": "17,838,074",
+    "country1": "Afghanistan",
+    "country1_total": "4,552,153",
+    "country2": "Mozambique",
+    "country2_total": "1,445,474",
+    "country3": "Iraq",
+    "country3_total": "1,343,824"
+}, {
+    "year": 1993,
+    "total": "16,325,525",
+    "country1": "Afghanistan",
+    "country1_total": "3,374,576",
+    "country2": "Mozambique",
+    "country2_total": "1,172,550",
+    "country3": "Burundi",
+    "country3_total": "871,382"
+}, {
+    "year": 1994,
+    "total": "15,753,691",
+    "country1": "Afghanistan",
+    "country1_total": "2,731,169",
+    "country2": "Rwanda",
+    "country2_total": "2,257,573",
+    "country3": "Liberia",
+    "country3_total": "797,835"
+}, {
+    "year": 1995,
+    "total": "14,896,085",
+    "country1": "Afghanistan",
+    "country1_total": "2,679,133",
+    "country2": "Rwanda",
+    "country2_total": "1,819,366",
+    "country3": "Bosnia and Herzegovina",
+    "country3_total": "769,753"
+}, {
+    "year": 1996,
+    "total": "13,357,072",
+    "country1": "Afghanistan",
+    "country1_total": "2,674,236",
+    "country2": "Bosnia and Herzegovina",
+    "country2_total": "993,868",
+    "country3": "Liberia",
+    "country3_total": "784,008"
+}, {
+    "year": 1997,
+    "total": "12,015,350",
+    "country1": "Afghanistan",
+    "country1_total": "2,676,674",
+    "country2": "Bosnia and Herzegovina",
+    "country2_total": "849,241",
+    "country3": "Iraq",
+    "country3_total": "707,338"
+}, {
+    "year": 1998,
+    "total": "11,480,860",
+    "country1": "Afghanistan",
+    "country1_total": "2,667,115",
+    "country2": "Iraq",
+    "country2_total": "675,030",
+    "country3": "Bosnia and Herzegovina",
+    "country3_total": "640,075"
+}, {
+    "year": 1999,
+    "total": "11,689,358",
+    "country1": "Afghanistan",
+    "country1_total": "2,568,243",
+    "country2": "Iraq",
+    "country2_total": "604,002",
+    "country3": "Bosnia and Herzegovina",
+    "country3_total": "554,419"
+}, {
+    "year": 2000,
+    "total": "12,064,599",
+    "country1": "Afghanistan",
+    "country1_total": "3,587,336",
+    "country2": "Burundi",
+    "country2_total": "568,084",
+    "country3": "Iraq",
+    "country3_total": "526,179"
+}, {
+    "year": 2001,
+    "total": "12,031,996",
+    "country1": "Afghanistan",
+    "country1_total": "3,809,767",
+    "country2": "Burundi",
+    "country2_total": "553,999",
+    "country3": "Iraq",
+    "country3_total": "530,511"
+}, {
+    "year": 2002,
+    "total": "10,594,055",
+    "country1": "Afghanistan",
+    "country1_total": "2,510,285",
+    "country2": "Burundi",
+    "country2_total": "574,555",
+    "country3": "Sudan",
+    "country3_total": "508,871"
+}, {
+    "year": 2003,
+    "total": "9,592,795",
+    "country1": "Afghanistan",
+    "country1_total": "2,136,043",
+    "country2": "Sudan",
+    "country2_total": "606,242",
+    "country3": "Burundi",
+    "country3_total": "531,637"
+}, {
+    "year": 2004,
+    "total": "9,229,913",
+    "country1": "Afghanistan",
+    "country1_total": "2,084,109",
+    "country2": "Sudan",
+    "country2_total": "730,647",
+    "country3": "Burundi",
+    "country3_total": "485,454"
+}, {
+    "year": 2005,
+    "total": "8,661,988",
+    "country1": "Afghanistan",
+    "country1_total": "2,166,149",
+    "country2": "Sudan",
+    "country2_total": "693,632",
+    "country3": "Burundi",
+    "country3_total": "438,706"
+}, {
+    "year": 2006,
+    "total": "9,877,703",
+    "country1": "Afghanistan",
+    "country1_total": "2,107,519",
+    "country2": "Iraq",
+    "country2_total": "1,450,905",
+    "country3": "Sudan",
+    "country3_total": "686,311"
+}, {
+    "year": 2007,
+    "total": "11,388,967",
+    "country1": "Afghanistan",
+    "country1_total": "3,055,698",
+    "country2": "Iraq",
+    "country2_total": "2,309,245",
+    "country3": "Colombia",
+    "country3_total": "551,744"
+}, {
+    "year": 2008,
+    "total": "10,478,622",
+    "country1": "Afghanistan",
+    "country1_total": "2,833,128",
+    "country2": "Iraq",
+    "country2_total": "1,903,519",
+    "country3": "Somalia",
+    "country3_total": "561,154"
+}, {
+    "year": 2009,
+    "total": "10,396,538",
+    "country1": "Afghanistan",
+    "country1_total": "2,887,123",
+    "country2": "Iraq",
+    "country2_total": "1,785,212",
+    "country3": "Somalia",
+    "country3_total": "678,309"
+}, {
+    "year": 2010,
+    "total": "10,549,681",
+    "country1": "Afghanistan",
+    "country1_total": "3,054,709",
+    "country2": "Iraq",
+    "country2_total": "1,683,579",
+    "country3": "Somalia",
+    "country3_total": "770,154"
+}, {
+    "year": 2011,
+    "total": "10,404,804",
+    "country1": "Afghanistan",
+    "country1_total": "2,664,436",
+    "country2": "Iraq",
+    "country2_total": "1,428,308",
+    "country3": "Somalia",
+    "country3_total": "1,077,048"
+}, {
+    "year": 2012,
+    "total": "10,497,545",
+    "country1": "Afghanistan",
+    "country1_total": "2,586,034",
+    "country2": "Somalia",
+    "country2_total": "1,136,714",
+    "country3": "Iraq",
+    "country3_total": "746,197"
+}]
